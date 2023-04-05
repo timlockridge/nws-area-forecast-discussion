@@ -1,0 +1,31 @@
+/* simple styling. also using bootstrap from the CDN. may come back to this later. */
+
+h2, h2+p, p+p {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1% 2% 1% 2%;
+}
+
+h2 {
+    margin-top: 2%;
+    border-bottom: 1px solid #d1d0d0;
+}
+
+#header {
+    background-color: rgb(177, 176, 176);
+}
+
+.pre-synopsis {
+    display: none;
+}
+
+.time {
+    max-width: 960px;
+    font-style: italic;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+h2 {
+    word-wrap: break-word;
+}
